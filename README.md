@@ -55,7 +55,7 @@ A simple bash script to create Epicodus JavaScript projects and initialize the g
 
 ## Links
 
-* [Github Repo] ()
+* [Github Repo] (https://github.com/atrotter0/javascript-project-config-tool)
 
 ## License
 
