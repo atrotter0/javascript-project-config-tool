@@ -28,6 +28,15 @@ A simple bash script to create Epicodus JavaScript projects and initialize the g
     * eslint
     * eslint-loader
     * html-webpack-plugin
+    * jasmine
+    * jasmine-core
+    * karma
+    * karma-chrome-launcher
+    * karma-cli
+    * karma-jasmine
+    * karma-jasmine-html-reporter
+    * karma-jquery
+    * karma-webpack
     * style-loader
     * uglifyjs-webpack-plugin
     * webpack

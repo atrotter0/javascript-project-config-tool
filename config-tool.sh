@@ -63,6 +63,7 @@ then
   cp -R $baseDirectory/assets/src ~/Desktop/$projectName
   cp $baseDirectory/assets/.eslintrc ~/Desktop/$projectName
   cp $baseDirectory/assets/.gitignore ~/Desktop/$projectName
+  cp $baseDirectory/assets/karma.conf.js ~/Desktop/$projectName
   cp $baseDirectory/assets/package.json ~/Desktop/$projectName
   cp $baseDirectory/assets/README.md ~/Desktop/$projectName
   cp $baseDirectory/assets/webpack.config.js ~/Desktop/$projectName
@@ -75,7 +76,10 @@ then
   # Run npm install
   echo Installing dependencies. This may take a few seconds...
   npm install
-  sleep 15
+  sleep 20
+
+  # Run jasmine init
+  ./node_modules/.bin/jasmine init
 
   # Run npm run start
   echo Running build and starting dev server...

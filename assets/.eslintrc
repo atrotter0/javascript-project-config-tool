@@ -5,9 +5,10 @@
   },
   "extends": "eslint:recommended",
   "env": {
-    "es6": true,
     "browser": true,
-    "jquery": true
+    "jquery": true,
+    "node": true,
+    "jasmine": true
   },
   "rules": {
       "semi": 1,

@@ -9,10 +9,12 @@
 ## Setup on OSX
 
 * Install Node.js
+* Install karma-cli globally: `npm install -g karma-cli`
 * Clone the repo
 * `npm install` to install dependencies
 * `npm run start` to build and start the dev server
 * `npm run lint` to explicitly run ESLint
+* `npm run test` to run the unit tests with Karma and Jasmine. Visit `localhost:9876` to view the tests.
 
 ## Contribution Requirements
 
