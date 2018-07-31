@@ -1,0 +1,31 @@
+{
+  "name": "project-name-here",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development",
+    "start": "npm run build; webpack-dev-server --open --mode development",
+    "lint": "eslint src/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.10",
+    "eslint": "^4.18.2",
+    "eslint-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.0.6",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
