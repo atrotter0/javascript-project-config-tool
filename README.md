@@ -23,6 +23,9 @@ A simple bash script to create Epicodus JavaScript projects and initialize the g
   * src directory with index.html, main.js, and styles.css
   * README.md outline
   * package.json with the following dependencies:
+    * babel-core
+    * babel-loader
+    * babel-preset-es2015
     * clean-webpack-plugin
     * css-loader
     * eslint
