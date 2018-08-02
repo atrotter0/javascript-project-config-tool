@@ -1,6 +1,6 @@
 # Project Title
 
-#### Epicodus Intro to Programming: Lesson, Date
+#### Epicodus JavaScript exercise, Date
 
 #### By Your Name Here
 
