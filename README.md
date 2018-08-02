@@ -11,10 +11,14 @@ A simple bash script to create Epicodus JavaScript projects and initialize the g
 1. Download and install Node.js
 1. Clone the repo
 1. Navigate into the clone directory
-1. Run $ chmod 777 ./config-tool.sh
-1. Run $ ./config-tool.sh
+1. Run `chmod 777 ./config-tool.sh`
+1. Run `./config-tool.sh`
 1. Follow the prompt
 
+##### Project Scripts
+* Run `npm run build` to build your project
+* Run `npm run start` to build and start the dev server
+* Run `npm run test` to run the testing suite
 
 ## Usage
 
