@@ -88,6 +88,7 @@ then
   # Run npm run start
   echo Process complete! Your JavaScript project has been created!
   echo Running build and starting dev server...
+  cd $projectName
   npm run start
   sleep 5
 else
