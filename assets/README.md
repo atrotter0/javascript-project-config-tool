@@ -6,6 +6,14 @@
 
 ## Description
 
+Add description here
+
+## Specs
+
+| Behavior | Input | Output |
+|----------|-------|--------|
+| Behavior | input | output |
+
 ## Setup on OSX
 
 * Install Node.js
@@ -34,6 +42,10 @@
 * ESLint
 * Jasmine
 * Karma
+
+## Links
+
+* Add links here
 
 ## License
 
