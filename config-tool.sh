@@ -81,15 +81,15 @@ then
   # Run jasmine init
   ./node_modules/.bin/jasmine init
 
-  # Run npm run start
-  echo Running build and starting dev server...
-  npm run start
-  sleep 5
-
   # Navigate to and open project in finder
   cd ../
   open $projectName
+
+  # Run npm run start
   echo Process complete! Your JavaScript project has been created!
+  echo Running build and starting dev server...
+  npm run start
+  sleep 5
 else
   echo Goodbye!
 fi
