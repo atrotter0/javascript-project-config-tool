@@ -20,7 +20,8 @@ module.exports = function(config) {
       'karma-webpack',
       'karma-jasmine',
       'karma-chrome-launcher',
-      'karma-jasmine-html-reporter'
+      'karma-jasmine-html-reporter',
+      'karma-sourcemap-loader'
     ],
     reporters: ['progress', 'kjhtml'],
     port: 9876,
