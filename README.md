@@ -15,7 +15,7 @@ A simple bash script to create Epicodus JavaScript projects and initialize the g
 1. Run `./config-tool.sh`
 1. Follow the prompt
 
-##### Project Scripts
+#### Project Scripts
 * Run `npm run build` to build your project
 * Run `npm run start` to build and start the dev server
 * Run `npm run test` to run the testing suite
@@ -43,6 +43,7 @@ A simple bash script to create Epicodus JavaScript projects and initialize the g
     * karma-jasmine
     * karma-jasmine-html-reporter
     * karma-jquery
+    * karma-sourcemap-loader
     * karma-webpack
     * style-loader
     * uglifyjs-webpack-plugin
