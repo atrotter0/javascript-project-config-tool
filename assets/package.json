@@ -30,6 +30,7 @@
     "karma-jasmine": "^1.1.1",
     "karma-jasmine-html-reporter": "^0.2.2",
     "karma-jquery": "^0.2.2",
+    "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.13",
     "style-loader": "^0.20.2",
     "uglifyjs-webpack-plugin": "^1.2.2",

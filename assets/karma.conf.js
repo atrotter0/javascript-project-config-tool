@@ -12,8 +12,8 @@ module.exports = function(config) {
     exclude: [
     ],
     preprocessors: {
-      'src/*.js': ['webpack'],
-      'spec/*spec.js': ['webpack']
+      'src/*.js': ['webpack', 'sourcemap'],
+      'spec/*spec.js': ['webpack', 'sourcemap']
     },
     plugins: [
       'karma-jquery',
